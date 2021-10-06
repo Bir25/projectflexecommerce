@@ -1,0 +1,738 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+}
+ul
+{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img
+{
+    display: block;
+}
+.container
+{
+    max-width: 1300px;
+    margin: auto;
+}
+header
+{
+    background: wheat;
+    padding: 10px 0;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+.info
+{
+    text-align: right;
+}
+.topnav ul li a:hover
+{
+    color: red;
+}
+.topnav ul li
+{
+    display: inline;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+}
+.topnav ul li a
+{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.search
+{
+    margin: 16px 0 10px 0;
+}
+.search input
+{
+    width: 525px;
+    height: 37px;
+    padding-left: 20px;
+    border-radius: 5px 0 0 5px ;
+}
+.btn
+{
+    background: brown;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid brown;
+    border-radius:  0 5px 5px 0;
+    margin-left: -5px;
+}
+.icon
+{
+    margin: 19px 0 0 5px;
+}
+.icon a
+{
+    text-decoration: none;
+    color: brown;
+}
+nav
+{
+    background: #fff;
+    line-height: 45px;  
+}
+
+.nav ul li
+{
+    display:inline;
+    font-size: 17px;
+    font-weight: 600;
+}
+.nav ul li a
+{
+    color: #000;
+    padding: 15px;
+    text-transform: uppercase;
+    
+}
+.nav ul li a:hover
+{
+    color: red;
+}
+.row
+{
+    background: url(https://spacingtech.com/html/vegist-final/vegist/image/slider1.jpg) no-repeat center/center cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2
+{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.col-2 img
+{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-2
+{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img
+{
+max-width: 100%;
+padding: 50px 0;
+}
+.col-2 h1
+{
+    font-size: 50px;
+    line-height: 1.7;
+    color: lightgreen;
+}
+.col-2 p
+{
+    padding-left:30px;
+}
+.col-2 .btn
+{
+display: inline-block;
+background: #ff523b;
+padding: 8px 30px;
+margin: 30px 5px;
+border-radius: 30px;
+}
+.col-2 .btn:hover
+{
+    background: green;
+}
+.col-3
+{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img
+{
+    width: 100%;
+}
+.small-container
+{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.title
+{
+    text-align: center;
+    margin: 25px auto 20px;
+    position: relative;
+    line-height:60px;
+    color: chocolate;
+}
+.title::after
+{
+    content: '';
+    background-color: chocolate;
+    width: 80px;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.col-4
+{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 100px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img
+{
+    width: 100%;
+}
+h5
+{
+    color: #555;
+    font-weight: 900;
+    font-size: 20px;
+}
+.col-4 p
+{
+font-size: 14px;
+font-weight: 800;
+}
+.rating .fas
+{
+color: orangered;
+}
+.rating .far{
+    color: orangered;
+}
+.col-4:hover
+{
+    transform: translateY(-5px);
+}
+.testimonial
+{
+    padding-top: 100px;
+
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0,0, 0.1);
+    cursor: pointer;
+    transition: transform 0.9s;
+}
+.testimonial .col-3 img
+{
+    width: 50px;
+    margin: 5px auto 5px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover
+{
+    transform: translateY(-10px);
+}
+.fa-quote-left
+{
+    font-size: 13px;
+    color: orangered;
+}
+.col-3 p
+{ 
+    text-align: justify;
+    font-size: 12px;
+    color: grey;
+    margin: 13px 0;
+}
+.testimonial .col-3 h3
+{
+    font-weight: 600;
+    color: grey;
+    font-size: 16px;
+}
+.brands
+{
+    margin: 100px auto;
+}
+.col-6
+{
+    width: 160px;
+}
+.col-6 img
+{
+    width: 100%;
+    cursor: pointer;
+    filter:grayscale(100%);
+}
+.col-6 img:hover
+{
+    filter: grayscale(0);
+}
+.footer
+{
+    background: wheat;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 20px 0 20px;
+}
+.footer p
+{
+    color: grey;
+}
+.footer h3
+{
+    color: orangered;
+    margin-bottom: 10px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4
+{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1
+{
+    flex-basis: 23%;
+}
+.footer-col-2
+{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img
+{
+    max-width: 100px;
+    margin: 10px auto 10px;
+}
+.footer-col-3, .footer-col-4
+{
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer-col-3, .footer-col-4 li{
+    list-style: none;
+}
+.footer-col-3 a
+{
+    text-decoration: none;
+    color: grey;
+}
+.footer-col-3 a:hover
+{
+    color: red;
+}
+.app-logo
+{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.app-logo img
+{
+    width: 140px;
+}
+.footer-col-4 a
+{
+   color: grey;
+
+}
+.footer-col-4 a:hover
+{
+    color: red;
+}
+.footer hr
+{
+    border: none;
+    background:#b5b5b5 ;
+    height: 1px;
+    margin: 10px 0;
+}
+.copyright
+{
+    text-align: center;
+}
+.arrow
+{
+    width: 40px; height: 40px; background: orangered;
+    position: fixed; bottom: 30px; right: 20px; text-align: center; line-height: 40px; 
+    display: none;
+    z-index: 999;
+
+}
+.arrow a
+{
+    color:white;
+    font-weight: 600;
+}
+.abcd
+{
+    position: fixed;
+    top: 0;
+    background: lightgreen;
+    width: 100%;
+    z-index: 999;
+}
+.nav span
+{
+    display: none;
+}
+.active1
+{
+    background: green;
+    border-radius: 5px;
+}
+.row-2
+{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+.row-2 h2
+{
+    color:lightgreen;
+    text-transform: uppercase;
+}
+.row-2 p
+{
+    font-weight: bold;
+    color: lightgreen;
+}
+select
+{
+    border: 1px solid #000;
+    padding: 5px;
+}
+select:focus
+{
+    outline: none;
+}
+.page-btn
+{
+    margin: 0 0 80px 80px;
+}
+.page-btn a
+{
+    color: white;
+}
+
+.page-btn ul
+{
+    list-style: none;
+}
+.page-btn li
+{
+    background: #ff523b;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.products
+{
+    margin-top: 80px;
+}
+.products, .col-2 img
+{
+    padding: 15px;
+}
+.products h1
+{
+    font-size: 40px;
+    color: #000;
+}
+.products p
+{
+    font-size: 17px;
+    text-align: justify;
+}
+.products h4
+{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.products select
+{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.products input
+{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+input:focus
+{
+    outline: none;
+}
+.small-img-row
+{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col
+{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.cart
+{
+    margin: 80px auto;
+
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+.cart-info
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+th
+{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: brown;
+    font-weight: 600;
+}
+td
+{
+    padding: 10px 5px;
+}
+td input
+{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+td a
+{
+    color: brown;
+    font-size: 13px;
+}
+td img
+{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.total table
+{
+    border-top: 3px solid brown;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child
+{
+    text-align: right;
+}
+th:last-child
+{
+    text-align: right;
+}
+.account-page
+{
+    padding: 50px 0;
+    background: radial-gradient(whitesmoke,wheat) ;
+}
+.form-container
+{
+    background:#fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px auto 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0, 0.1);
+    overflow: hidden;
+   
+}
+.form-container span
+{
+    font-weight: bold;
+    padding: 0 10px;
+    color:grey;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn
+{
+    display: inline-block;
+}
+.form-container form
+{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transform: transforn 2s;
+}
+form input
+{
+width: 100%;
+height: 30px;
+margin: 10px 0;
+padding: 0 10px;
+border: 1px solid lightgrey;
+}
+form .btn
+{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus
+{
+outline: none;
+}
+#LoginForm
+{
+    left: -300px;
+}
+#RegForm
+{
+    left: 0;
+}
+form a
+{
+    font-size: 12px;
+}
+#Indicator
+{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transform: transforn 2s;
+}
+.banner
+{
+    background: url(https://spacingtech.com/html/vegist-final/vegist/image/slider3.jpg) no-repeat center center/cover;
+height: 400px;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 100px 0 0 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+font-size: 18px;
+color: orangered;
+
+}
+.about-title
+{
+    text-align: center;
+}
+.about-title p
+{
+    text-align: justify;
+}
+.about-details h1
+{
+    font-size: 17px;
+    text-align: justify;
+}
+.contact
+{
+    padding: 50px 0;
+    background: radial-gradient(whitesmoke,wheat) ;
+}
+.visit 
+{
+   justify-content: center;
+max-width: 500px;
+    border: 2px solid black;
+    text-align: justify;
+    background: #e2e0d4;
+}
+.map h2
+{
+    color: orangered;
+    padding-bottom: 5px;
+}
+.visit h2 
+{
+text-align: center;
+color: orangered;
+}
+.visit a{
+    padding-left: 5px;
+}
+.visit a:hover
+{
+    color: red;
+}
+.owl-carousel button.owl-dot {
+    background:grey;
+    width: 20px;
+    height: 20px;
+   margin: 2px;
+}
+.owl-dots
+{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.owl-dot.active 
+{
+    background: lightgreen !important;
+}
